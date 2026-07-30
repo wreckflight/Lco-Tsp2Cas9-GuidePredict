@@ -50,18 +50,6 @@ Alternatively, after creating a compatible Python 3.6 environment:
 ```bash
 pip install -r requirements.txt
 ```
-
-### Training data for reproduction
-
-Feature matrices are provided under `data/`. Training scripts also need the corresponding KOD-corrected activity CSVs for labels and row alignment. Place them under `data/`, or pass `--csv`:
-
-| Dataset | Expected CSV name |
-|---------|-------------------|
-| Tsp2Cas9 | `Tsp-12d_merged_fasta_gRNA_results_legacy_dp_KOD_corrected.csv` |
-| LcoCas9  | `Lco-12d_merged_fasta_gRNA_results_legacy_dp_KOD_corrected.csv` |
-
-Default search order: `data/<csv>` → sibling folders `Tsp_data/` / `Lco_data/` when present.
-
 ---
 
 ### Prediction
