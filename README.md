@@ -4,21 +4,6 @@
 
 This repository contains the source code, trained models, and scripts for reproducing the prediction results described in our publication.
 
-<p align="center">
-  <img src="figures/overview.png" width="900" alt="Overview of the Pre-LcoCas9 framework">
-</p>
-<p align="center"><em>Overview of the Pre-LcoCas9 framework.</em></p>
-
-## Online Prediction
-
-Try the online predictor here:
-
-**https://xxxx.edu.cn/Pre-LcoCas9**
-
-*(Replace with the public web-server URL when available.)*
-
----
-
 ### System requirements
 
 The code were tested on Linux and Mac OS systems.
